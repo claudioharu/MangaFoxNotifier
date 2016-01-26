@@ -1,0 +1,40 @@
+{
+	"name" : "MF Notifier",
+	"description" : "manga fox notifier",
+	"version" : "0.2",
+	"manifest_version": 2,
+	"icons" : {
+		"32" : "mf.png",
+		"64" : "mf.png"
+	},
+
+	// "background_page" : "background.html",
+	"background": {
+		"page": "background.html"
+	},
+	
+	"content_scripts": [
+	    {
+	      "matches": ["http://mangafox.me/*"],
+	      // "css": ["mystyles.css"],
+	      "js": ["jquery.js", "background.js", "pop.js"]
+	    }
+  	],
+
+	// "content_security_policy": "script-src 'self' https://ajax.googleapis.com 'unsafe-eval'; object-src 'self'",
+
+	"permissions" : [
+		"notifications",
+		"storage",
+		"http://mangafox.me/*",
+		"http://a.mfcdn.net/*"
+	],
+
+	"browser_action" : {
+		"default_icon" : "mf.png",
+		"default_popup" : "popup.html"
+	}
+	
+	
+
+}
