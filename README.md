@@ -4,7 +4,7 @@ An a google chrome's extension that NOTIFIES you when the chapter/title is relea
 
 ---------------------------------------------
 
-# Using the extension
+### Using the extension
 
 ![alt tag](https://raw.githubusercontent.com/claudioharu/MangaFoxNotifier/master/modoDesenvolvedor.png)
 
