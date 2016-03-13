@@ -1,6 +1,6 @@
 # MangaFoxNotifier
 
-An a google chrome's extension that NOTIFIES you when the chapter/title is release.
+An a google chrome's extension that NOTIFIES you when the chapter/title is released.
 
 ---------------------------------------------
 
