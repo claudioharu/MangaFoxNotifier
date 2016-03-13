@@ -27,7 +27,7 @@
 		"notifications",
 		"storage",
 		"http://mangafox.me/*",
-		"http://a.mfcdn.net/*"
+		"http://c.mfcdn.net/*"
 	],
 
 	"browser_action" : {
