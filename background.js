@@ -11,17 +11,17 @@ var previousManga = [];
 
 
 $(function(){
-	debug();
+	// debug();
 	engine();
 	setInterval(engine, 60000);
 });
 
 function debug()
 {
-	// chrome.storage.sync.set({"latestManga" : ["Dagashi Kashi 19", "latestImg"]}, function(){
-	// 	console.log("salvou " + "Dagashi Kashi 19" + " " + "latestImg");
-	// });
-	// latestManga = "My Young Cat and My Old Dog 185";
+	chrome.storage.sync.set({"latestManga" : ["Dagashi Kashi 19", "latestImg"]}, function(){
+		console.log("salvou " + "Dagashi Kashi 19" + " " + "latestImg");
+	});
+	latestManga = "Uchi no Maou Kamimasen yo 28";
 }
 
 function engine(){

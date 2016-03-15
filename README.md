@@ -4,7 +4,18 @@ An a google chrome's extension that NOTIFIES you when the chapter/title is relea
 
 ---------------------------------------------
 
-### Using the extension
+### Loading the extension
+
+To start using the extension, you need enable the developer mode of google chrome. 
 
 ![alt tag](https://raw.githubusercontent.com/claudioharu/MangaFoxNotifier/master/modoDesenvolvedor.png)
+
+Once enabled, click in "load expanded extension" and select the folder MangaFoxNotifier.
+
+![alt tag](https://raw.githubusercontent.com/claudioharu/MangaFoxNotifier/master/modoDesenvolvedor.png)
+
+### Using the extension
+
+### Configuring the extension
+
 

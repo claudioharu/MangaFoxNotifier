@@ -3,6 +3,7 @@ $(document).ready(function() {
 
 	$('#roundedTwo').click(function() {
 		if($('#roundedTwo').is(":checked")){
+			$('#toRemove').remove();
 			console.log("marcado");
 			$('#searchform').hide();
 			// $('#toRemove').show();
@@ -16,6 +17,12 @@ $(document).ready(function() {
 			$('#toRemove').remove();
 		
 		}
+		
+	});
+
+	$("#squaredTwo2[name='checksBox']").click(function() {
+			console.log("eu");
+		
 		
 	});
 });

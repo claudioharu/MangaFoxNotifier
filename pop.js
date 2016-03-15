@@ -40,9 +40,19 @@ function listSearch(title)
 
 			for(i=0; i < itens.length; i++)
 			{
-				 $('ul.style1').append('<li> <a>' + itens[i] + '</a></li>');	
+				 $('ul.style1').append('<li> <div float:left> <a >' + itens[i] + '</a></div>'+ 
+				 	'<section title=".squaredTwo"><div class="squaredTwo" float:right>'+
+				 	'<input type="checkbox" value="None" name="check" id ="'+ itens[i]+'"/>'+
+				 	'<label for="'+ itens[i]+'"></label>'+
+				 	'</div>'+
+				 	'</li></section>');	
 			}
 			// $('#toRemove').append($);
 		}
 	});
 }
+
+// <div class="squaredTwo"> -->
+// 		<!-- <input type="checkbox" value="None" id="squaredTwo" name="check" checked /> -->
+// 		<!-- <label for="squaredTwo"></label> -->
+// 		<!-- </div> -->
