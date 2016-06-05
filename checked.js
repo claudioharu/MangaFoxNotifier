@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	// Function to get input value.
 
+
 	$('#roundedTwo').click(function() {
 		if($('#roundedTwo').is(":checked")){
 			$('#toRemove').remove();
@@ -12,17 +13,10 @@ $(document).ready(function() {
 			body();
 
 		} else {
-			console.log("n~ao marcado");
 			$('#searchform').show();
-			$('#toRemove').remove();
-		
+			$('#toRemove').remove();		
 		}
 		
 	});
 
-	$("#squaredTwo2[name='checksBox']").click(function() {
-			console.log("eu");
-		
-		
-	});
 });

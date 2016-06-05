@@ -7,7 +7,7 @@ $(document).ready(function() {
 		}else{
 			// alert(text_value);
 			$("#toRemove").remove();
-			listSearch(text_value)
+			listSearch(text_value);
 		}
 	});
 });
