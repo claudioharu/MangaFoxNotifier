@@ -18,16 +18,17 @@ $(function(){
 
 function debug()
 {
-	chrome.storage.sync.set({"latestManga" : ["Dagashi Kashi 19", "latestImg"]}, function(){
+	chrome.storage.sync.set({"latestManga" : ["Liar x Liar 32", "latestImg"]}, function(){
 		console.log("salvou " + "Dagashi Kashi 19" + " " + "latestImg");
 	});
-	latestManga = "Uchi no Maou Kamimasen yo 28";
+	latestManga = "Liar x Liar 32";
 }
 
 function engine(){
 
 	var newManga = [];
 	var newImg = [];
+
 	$.get('http://mangafox.me/releases/', function(data){
 			var htmlData = data;
 			$data = $(htmlData).find( "ul#updates" );

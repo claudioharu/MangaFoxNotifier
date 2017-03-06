@@ -9,5 +9,7 @@ $(document).ready(function() {
 			$("#toRemove").remove();
 			listSearch(text_value);
 		}
+
+		
 	});
 });

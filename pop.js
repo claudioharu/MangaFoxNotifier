@@ -35,18 +35,20 @@ function listSearch(title)
 		success: function(datat) {
 			
 			var html = datat;
-			$data = $(html).find('#listing').find("tr");
+			$data = $(html).find('#mangalist').find(".list").find("li");
 			
 			itens = [];
 			itensLinks = [];
 
 			console.log($data.length);
-			for(i=1; i < $data.length; i++)
+			for(i=0; i < $data.length; i++)
 			{
-				itens[i-1] = $data.eq(i).find('td').find('a').eq(0).text();
-				itensLinks[i-1] = $data.eq(i).find('td').find('a').eq(0).attr('href');
+				itens[i] = $data.eq(i).find('a.title').eq(0).text();
+				itensLinks[i] = $data.eq(i).find('.manga_img').eq(0).attr('href');
 				
 			}
+			// console.log(itens);
+			// console.log(itensLinks);
 
 			chrome.storage.sync.get("listOfMangasToSave", function(dat){
 

@@ -25,6 +25,7 @@
 		"notifications",
 		"storage",
 		"http://mangafox.me/*",
+		"http://h.mfcdn.net/*",
 		"http://c.mfcdn.net/*"
 	],
 
